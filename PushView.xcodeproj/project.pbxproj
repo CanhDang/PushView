@@ -12,6 +12,15 @@
 		7E2F31351D388D0200380BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31331D388D0200380BE7 /* Main.storyboard */; };
 		7E2F31371D388D0200380BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31361D388D0200380BE7 /* Assets.xcassets */; };
 		7E2F313A1D388D0200380BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31381D388D0200380BE7 /* LaunchScreen.storyboard */; };
+		7E2F31421D388ED500380BE7 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F31411D388ED500380BE7 /* View2.swift */; };
+		7E2F31441D389B8B00380BE7 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F31431D389B8B00380BE7 /* View3.swift */; };
+		7E2F314F1D38A3D100380BE7 /* math_games_background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F314E1D38A3D100380BE7 /* math_games_background.jpeg */; };
+		7E2F31511D38A52000380BE7 /* math_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31501D38A52000380BE7 /* math_launch.png */; };
+		7E2F31531D38DC7B00380BE7 /* math_background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31521D38DC7B00380BE7 /* math_background.jpeg */; };
+		7E2F31571D38DE1B00380BE7 /* math_note_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31541D38DE1B00380BE7 /* math_note_1.jpeg */; };
+		7E2F31581D38DE1B00380BE7 /* math_note2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31551D38DE1B00380BE7 /* math_note2.jpg */; };
+		7E2F31591D38DE1B00380BE7 /* math_note3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F31561D38DE1B00380BE7 /* math_note3.jpg */; };
+		7E2F315D1D38E48000380BE7 /* math_board.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F315C1D38E48000380BE7 /* math_board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		7E2F31361D388D0200380BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E2F31391D388D0200380BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E2F313B1D388D0200380BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2F31411D388ED500380BE7 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		7E2F31431D389B8B00380BE7 /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		7E2F314E1D38A3D100380BE7 /* math_games_background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math_games_background.jpeg; sourceTree = "<group>"; };
+		7E2F31501D38A52000380BE7 /* math_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_launch.png; sourceTree = "<group>"; };
+		7E2F31521D38DC7B00380BE7 /* math_background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math_background.jpeg; sourceTree = "<group>"; };
+		7E2F31541D38DE1B00380BE7 /* math_note_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math_note_1.jpeg; sourceTree = "<group>"; };
+		7E2F31551D38DE1B00380BE7 /* math_note2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math_note2.jpg; sourceTree = "<group>"; };
+		7E2F31561D38DE1B00380BE7 /* math_note3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math_note3.jpg; sourceTree = "<group>"; };
+		7E2F315C1D38E48000380BE7 /* math_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,47 @@
 		7E2F312E1D388D0200380BE7 /* PushView */ = {
 			isa = PBXGroup;
 			children = (
+				7E2F31451D389F2C00380BE7 /* Image */,
 				7E2F312F1D388D0200380BE7 /* AppDelegate.swift */,
 				7E2F31311D388D0200380BE7 /* ViewController.swift */,
 				7E2F31331D388D0200380BE7 /* Main.storyboard */,
 				7E2F31361D388D0200380BE7 /* Assets.xcassets */,
 				7E2F31381D388D0200380BE7 /* LaunchScreen.storyboard */,
 				7E2F313B1D388D0200380BE7 /* Info.plist */,
+				7E2F31411D388ED500380BE7 /* View2.swift */,
+				7E2F31431D389B8B00380BE7 /* View3.swift */,
 			);
 			path = PushView;
+			sourceTree = "<group>";
+		};
+		7E2F31451D389F2C00380BE7 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F31501D38A52000380BE7 /* math_launch.png */,
+				7E2F314A1D389F9B00380BE7 /* Login */,
+				7E2F31481D389F7100380BE7 /* Math */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		7E2F31481D389F7100380BE7 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F315C1D38E48000380BE7 /* math_board.png */,
+				7E2F31521D38DC7B00380BE7 /* math_background.jpeg */,
+				7E2F31541D38DE1B00380BE7 /* math_note_1.jpeg */,
+				7E2F31551D38DE1B00380BE7 /* math_note2.jpg */,
+				7E2F31561D38DE1B00380BE7 /* math_note3.jpg */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		7E2F314A1D389F9B00380BE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F314E1D38A3D100380BE7 /* math_games_background.jpeg */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +174,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2F313A1D388D0200380BE7 /* LaunchScreen.storyboard in Resources */,
+				7E2F31531D38DC7B00380BE7 /* math_background.jpeg in Resources */,
+				7E2F315D1D38E48000380BE7 /* math_board.png in Resources */,
 				7E2F31371D388D0200380BE7 /* Assets.xcassets in Resources */,
 				7E2F31351D388D0200380BE7 /* Main.storyboard in Resources */,
+				7E2F31591D38DE1B00380BE7 /* math_note3.jpg in Resources */,
+				7E2F31511D38A52000380BE7 /* math_launch.png in Resources */,
+				7E2F31571D38DE1B00380BE7 /* math_note_1.jpeg in Resources */,
+				7E2F31581D38DE1B00380BE7 /* math_note2.jpg in Resources */,
+				7E2F314F1D38A3D100380BE7 /* math_games_background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2F31441D389B8B00380BE7 /* View3.swift in Sources */,
 				7E2F31321D388D0200380BE7 /* ViewController.swift in Sources */,
+				7E2F31421D388ED500380BE7 /* View2.swift in Sources */,
 				7E2F31301D388D0200380BE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
